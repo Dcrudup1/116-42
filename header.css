@@ -1,0 +1,51 @@
+header {
+  background-color: var(--surface-color);
+  height: 60px;
+  position: sticky;
+  top: 0px;
+}
+
+/* Left side */
+.logo {
+  width: 20%;
+  height: 100%;
+}
+
+/* Right side */
+nav {
+  width: 80%; /* Adjusted the width */
+  height: 100%;
+}
+
+.nav-link {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-link a {
+  color: var(--neutral-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 2%;
+  padding: 1% 2%;
+  background-color: blueviolet;
+}
+
+.nav-link a:hover { /* Corrected the typo: hoover to hover */
+  border-bottom: solid 2px var(--primary-color);
+}
+
+#nav-check,
+.nav-btn {
+  display: none;
+}
+
+/* Hamburger button */
+.nav-btn span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: var(--neutral-color);
+  margin: 6px auto;
+}
+
